@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Virtual envs
+.venv/
+.env/
+*.env
+
+# Data & artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_markdown
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
+dist/
+build/
+*.egg-info/

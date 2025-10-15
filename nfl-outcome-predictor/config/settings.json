@@ -1,0 +1,18 @@
+{
+  "train": {
+    "start_season": 2000,
+    "end_season": 2025,
+    "test_start_season": 2023,
+    "random_state": 42,
+    "test_size": 0.2,
+    "rolling_windows": [
+      3,
+      5
+    ]
+  },
+  "paths": {
+    "raw": "data/raw",
+    "processed": "data/processed",
+    "models": "models"
+  }
+}
